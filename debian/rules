@@ -1,0 +1,11 @@
+#!/usr/bin/make -f
+%:
+	dh $@
+
+PACKAGE = $(shell dpkg-parsechangelog --show-field=Source)
+VERSION = $(shell dpkg-parsechangelog --show-field=Version)
+ORIG_VERSION = $(shell echo $(VERSION) | cut -f 1 -d '-')
+COMMIT = $(shell echo $(ORIG_VERSION) | cut -f 2 -d '~')
+
+get-orig-source:
+	git archive -v $(COMMIT) -o ../$(PACKAGE)_$(ORIG_VERSION).orig.tar.gz

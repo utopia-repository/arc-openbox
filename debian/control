@@ -1,0 +1,17 @@
+Source: arc-openbox
+Section: x11
+Priority: optional
+Maintainer: James Lu <bitflip3@gmail.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+Homepage: https://github.com/dglava/arc-openbox
+Vcs-Git: https://github.com/utopia-repository/arc-openbox
+Vcs-Browser: https://github.com/utopia-repository/arc-openbox
+
+Package: arc-openbox-theme
+Architecture: all
+Depends: ${misc:Depends},
+ openbox,
+ arc-gtk-theme
+Description: Openbox theme built to match the Arc GTK+ themes
+ Arc-openbox is an Openbox theme built to match the Arc GTK+ themes.

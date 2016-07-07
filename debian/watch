@@ -1,0 +1,3 @@
+version=4
+https://github.com/dglava/arc-openbox/tags \
+(?:.*?/)?v?(\d[\d.]*)\.tar\.gz debian uupdate

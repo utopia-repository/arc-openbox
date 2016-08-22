@@ -12,6 +12,6 @@ Package: arc-openbox-theme
 Architecture: all
 Depends: ${misc:Depends},
  openbox,
- arc-gtk-theme
+ arc-theme
 Description: Openbox theme built to match the Arc GTK+ themes
  Arc-openbox is an Openbox theme built to match the Arc GTK+ themes.

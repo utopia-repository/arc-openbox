@@ -1,3 +1,9 @@
+arc-openbox (0+git20160706~e6df05c-0utopia2) unstable; urgency=medium
+
+  * Depend on arc-theme instead of arc-gtk-theme.
+
+ -- James Lu <bitflip3@gmail.com>  Sun, 21 Aug 2016 19:07:55 -0700
+
 arc-openbox (0+git20160706~e6df05c-0utopia1) unstable; urgency=medium
 
   * Initial Utopia Repository release.
